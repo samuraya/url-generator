@@ -149,7 +149,6 @@
     back() {
       this.step = 1
       this.serverErrors = new Errors();
-      this.url = '';
       this.shortUrl = null;
     },
     generate(){

@@ -2066,7 +2066,6 @@ __webpack_require__.r(__webpack_exports__);
     back: function back() {
       this.step = 1;
       this.serverErrors = new form_backend_validation__WEBPACK_IMPORTED_MODULE_3__["Errors"]();
-      this.url = '';
       this.shortUrl = null;
     },
     generate: function generate() {

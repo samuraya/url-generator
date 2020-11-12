@@ -11,5 +11,7 @@ finally returns newly created or existing short url in json format to vuejs fron
 
 Frontend design done with Vuetify plugin
 
-Public demo link is given as well as per request.
+Public demo link is given here : 
+
+http://url-generatorr.herokuapp.com/
 
