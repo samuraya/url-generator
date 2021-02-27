@@ -27,6 +27,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
+        if(config('app.env') === 'production') {
+            \URL::forceScheme('https');
+        }
+        
         Schema::defaultStringLength(191);
         ViewFactory::macro('component', function ($name, $data = []) {
             return View::make('app', ['name' => $name, 'data' => $data]);
