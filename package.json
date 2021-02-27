@@ -11,9 +11,7 @@
     },
     "devDependencies": {
         "axios": "^0.19",
-        "bootstrap": "^4.0.0",
         "cross-env": "^7.0",
-        "jquery": "^3.2",
         "laravel-mix": "^5.0.1",
         "lodash": "^4.17.19",
         "popper.js": "^1.12",
@@ -25,6 +23,9 @@
     },
     "dependencies": {
         "form-backend-validation": "^2.4.0",
+        "turbolinks": "^5.2.0",
+        "vue-material": "^1.0.0-beta-15",
+        "vuejs-avataaars": "^4.0.1",
         "vuelidate": "^0.7.6",
         "vuetify": "^2.3.17"
     }
